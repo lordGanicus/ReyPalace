@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Rey Palace</title>
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574333/favicon_gooxah.jpg"
+      type="image/jpg+xml"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lordGanicus/LadingPageReyPalace@main/assets/css/style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body id="top">
+    <!-- 
+      - #HEADER
+    -->
+    <header class="header" id="header" data-header>
+      <div class="overlay" data-overlay></div>
+
+      <div id="headerTop"></div>
+      <div id="headerBottom"></div>
+    </header>
+
+    <main>
+      <article>
+        <div class="container" id="container">
+          <h2 class="h2 section-title">Salon York</h2>
+          <div class="salon-container">
+            <!-- Contenedor de imágenes -->
+            <div class="imagenes-container">
+              <!-- Slider principal -->
+              <div class="slider-principal">
+                <div class="slider-grande" id="mainSlider">
+                  <!-- Slides principales -->
+                  <div class="main-slide active">
+                    <img
+                      src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575199/CUMPLEA%C3%91OS_1_yxujqs.jpg"
+                      alt="Salón Gales"
+                    />
+                  </div>
+                  <div class="main-slide">
+                    <img
+                      src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574592/FIESTA_E_CUMPLEA%C3%91OS_cmjydq.jpg"
+                      alt="Área principal"
+                    />
+                  </div>
+                  <div class="main-slide">
+                    <img
+                      src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574517/CUMPLEA%C3%91OS_3_grn4ld.jpg"
+                      alt="Ambiente del salón"
+                    />
+                  </div>
+                  <div class="main-slide">
+                    <img
+                      src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575198/15_A%C3%91OS_01_v0n2bu.jpg"
+                      alt="Vista del salón"
+                    />
+                  </div>
+                  <div class="main-slide">
+                    <img
+                      src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574594/BAUTIZO_htaer1.jpg"
+                      alt="Detalle del salón"
+                    />
+                  </div>
+                </div>
+
+                <!-- Controles del slider -->
+                <div class="slider-controls">
+                  <button class="slider-btn" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <button class="slider-btn" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Mini slider vertical a la derecha -->
+              <div class="mini-slider-vertical">
+                <div class="mini-slide active" data-index="0">
+                  <img
+                    src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575199/CUMPLEA%C3%91OS_1_yxujqs.jpg"
+                    alt="Salón York"
+                  />
+                </div>
+                <div class="mini-slide" data-index="1">
+                  <img
+                    src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574592/FIESTA_E_CUMPLEA%C3%91OS_cmjydq.jpg"
+                    alt="Área principal"
+                  />
+                </div>
+                <div class="mini-slide" data-index="2">
+                  <img
+                    src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574517/CUMPLEA%C3%91OS_3_grn4ld.jpg"
+                    alt="Ambiente del salón"
+                  />
+                </div>
+                <div class="mini-slide" data-index="3">
+                  <img
+                    src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575198/15_A%C3%91OS_01_v0n2bu.jpg"
+                    alt="Vista del salón"
+                  />
+                </div>
+                <div class="mini-slide" data-index="4">
+                  <img
+                    src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749574594/BAUTIZO_htaer1.jpg"
+                    alt="Detalle del salón"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Información del salón -->
+            <div class="info-container">
+              <div class="salon-info">
+                <p class="salon-subtitulo">
+                  Salón acogedor, ideal para eventos íntimos o reuniones
+                  empresariales.
+                  <br /><br />
+                  Cuenta con capacidad para hasta 60 personas e incluye: armado
+                  de mesas y sillas según solicitud, baños acondicionados con
+                  papelería y jabón antibacterial, acceso a parqueo, conexión
+                  Wi-Fi, sistema de sonido con micrófono, ecran (pantalla de
+                  exposición) y servicio de limpieza antes y después del evento.
+                </p>
+
+                <div class="eventos-container">
+                  <h3 class="eventos-titulo">Ideal para celebrar:</h3>
+                  <div class="eventos-tags">
+                    <span class="evento-tag">👶 Baby Shower</span>
+                    <span class="evento-tag">🎂 Cumpleaños</span>
+                    <span class="evento-tag">💍 Aniversarios</span>
+                    <span class="evento-tag">💼 Eventos Corporativos</span>
+                    <span class="evento-tag">🎓 Cenas de graduación</span>
+                    <span class="evento-tag">👰‍♀️ Bodas</span>
+                    <span class="evento-tag">🎉 15 años</span>
+                  </div>
+                </div>
+
+                <div class="servicios-container">
+                  <h3 class="servicios-titulo">Servicios incluidos</h3>
+                  <div class="servicios-lista">
+                    <div class="servicio-item">
+                      <i class="fas fa-users servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Capacidad: hasta 60 personas</span
+                      >
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-chair servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Armado de mesas y sillas personalizado</span
+                      >
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-bath servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Baños acondicionados e higiénicos</span
+                      >
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-parking servicio-icono"></i>
+                      <span class="servicio-texto">Uso de parqueo</span>
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-wifi servicio-icono"></i>
+                      <span class="servicio-texto">Conexión Wi-Fi</span>
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-volume-up servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Sistema de sonido ambiental</span
+                      >
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-microphone servicio-icono"></i>
+                      <span class="servicio-texto">Micrófono disponible</span>
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-video servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Ecran (pantalla de exposición)</span
+                      >
+                    </div>
+                    <div class="servicio-item">
+                      <i class="fas fa-broom servicio-icono"></i>
+                      <span class="servicio-texto"
+                        >Limpieza pre y post evento</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="botones-container">
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=75870235&text=Hola%2C%20quisiera%20hacer%20una%20cotizaci%C3%B3n%20o%20reserva%20para%20el%20sal%C3%B3n%20York.%20%C2%BFPodr%C3%ADan%20enviarme%20informaci%C3%B3n%20sobre%20disponibilidad%20y%20tarifas%3F"
+                    target="_blank"
+                    class="info-btn btn-cotizar"
+                    >COTIZAR EVENTO</a
+                  >
+                  <a
+                    href="https://www.facebook.com/people/Sal%C3%B3n-de-Eventos-Rey-Palace/100083265824811/"
+                    target="_blank"
+                    class="info-btn btn-contacto"
+                    >Ver más</a
+                  >
+                </div>
+
+                <!-- Servicios adicionales -->
+                <div class="servicios-adicionales">
+                  <h2 class="servicios-adicionales-titulo">
+                    Servicios Adicionales
+                  </h2>
+
+                  <div class="servicios-grid">
+                    <div class="servicio-card">
+                      <img
+                        src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575179/ALMUERZO_BUFFET_bjifhw.jpg"
+                        alt="Catering Gourmet"
+                        class="servicio-imagen"
+                      />
+                      <div class="servicio-contenido">
+                        <h3 class="servicio-nombre">
+                          Catering y Almuerzos Gourmet
+                        </h3>
+                        <p class="servicio-descripcion">
+                          Deliciosos almuerzos y bocados gourmet para eventos
+                          corporativos, sociales o familiares. <br /><br />
+                          Ofrecemos menús personalizados con opciones
+                          saludables, vegetarianas, veganas y para dietas
+                          especiales. <br />
+                          <br />
+                          Servicio profesional y presentación impecable.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="servicio-card">
+                      <img
+                        src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575195/BARRA_MOVIL_mnacxa.jpg"
+                        alt="Bar"
+                        class="servicio-imagen"
+                      />
+                      <div class="servicio-contenido">
+                        <h3 class="servicio-nombre">
+                          Barra Móvil y Coctelería
+                        </h3>
+                        <p class="servicio-descripcion">
+                          Disfruta de una experiencia única con nuestra barra
+                          móvil. <br /><br />Incluye cocteles clásicos y
+                          personalizados preparados en el momento por bartenders
+                          profesionales. <br /><br />
+                          Un servicio perfecto para impresionar a tus invitados
+                          y brindar un toque especial a tu evento.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="servicio-card">
+                      <img
+                        src="https://res.cloudinary.com/ds9subkxg/image/upload/v1749575181/CAFETERIA_PERMANENTE_2_fumggw.jpg"
+                        alt="Habitaciones Especiales"
+                        class="servicio-imagen"
+                      />
+                      <div class="servicio-contenido">
+                        <h3 class="servicio-nombre">
+                          Cafetería y Alquiler de Vajilla
+                        </h3>
+                        <p class="servicio-descripcion">
+                          Ofrecemos servicio de cafetería con una selección de
+                          bebidas calientes y frías para consentir a tus
+                          invitados durante el evento. <br /><br />
+                          Además, contamos con alquiler de vajilla elegante y
+                          completa: platos, copas, cubiertos y más, todo con
+                          presentación impecable y limpieza garantizada.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div id="fotterID"></div>
+    </footer>
+    <!-- Botón para ir arriba -->
+    <a href="#top" class="go-top" data-go-top>
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- Contenedor de redes sociales -->
+    <div class="social-flare-container">
+      <!-- Botón principal de WhatsApp -->
+      <a
+        href="https://api.whatsapp.com/send/?phone=73501495&text=Hola%2C%20necesito%20más%20información."
+        class="social-trigger whatsapp"
+        target="_blank"
+      >
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
+
+      <!-- Redes sociales que aparecen al hacer hover -->
+      <div class="social-flare">
+        <a
+          href="https://www.facebook.com/profile.php?id=100076455160551"
+          class="social-icon facebook"
+          target="_blank"
+        >
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a
+          href="https://www.instagram.com/hotelrey_palace/"
+          class="social-icon instagram"
+          target="_blank"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.tiktok.com/@hotel.rey.palace"
+          class="social-icon tiktok"
+          target="_blank"
+        >
+          <ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <!-- <script src="./assets/js/script.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/gh/lordGanicus/LadingPageReyPalace@main/assets/js/reutilizar.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- <script src="app.js"></script>-->
+  </body>
+</html>
